@@ -1,0 +1,48 @@
+.header {
+    background-color: black;
+    color: white;
+}
+
+.cont-header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-header a {
+    color: white
+}
+
+.cont-header a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.tablas {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.chart-container {
+    width: 40%;
+    margin: 0 auto;
+}
+
+@media (max-width:760px) {
+    .cont-header {
+        display: block;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    .chart-container {
+        width: 80%;
+    }
+}

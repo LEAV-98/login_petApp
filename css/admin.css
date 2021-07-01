@@ -1,0 +1,119 @@
+    .id {
+        display: none;
+    }
+    
+    th,
+    td {
+        font-size: 1.5rem;
+    }
+    
+    a {
+        font-size: 1.5rem !important;
+    }
+    
+    .header {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    
+    input {
+        outline: none;
+        border: none;
+        font-size: 1.5rem;
+    }
+    
+    .header a {
+        color: white
+    }
+    
+    .header a:hover {
+        text-decoration: underline;
+    }
+    
+    .cont-form {
+        margin: 1rem 0;
+    }
+    
+    .cont-form h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .form {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .form div {
+        width: 50%;
+        margin: .5rem 0;
+    }
+    
+    .form div input {
+        width: 100%;
+        display: inline;
+        border-bottom: 1px solid rgb(56, 54, 54);
+        background-color: rgb(248, 247, 247);
+        padding: 1rem .9rem;
+        transition: background-color .5s ease-in;
+    }
+    
+    .form div input:hover {
+        border-bottom: 1px solid rgb(131, 122, 122);
+        background-color: rgb(228, 226, 226);
+    }
+    
+   
+   
+    .submit{
+        background-color: black !important;
+    }
+    
+    .cont-input-select select {
+        padding: .5rem 0;
+        border: none;
+        outline: none;
+        font-size: 1.6rem;
+        padding: .5rem 1.5rem;
+        background-color: rgb(235, 231, 231);
+    }
+    
+    .cont-input-select select option {
+        font-size: 1.6rem;
+    }
+    
+    .submitEdit {
+        background-color: rgb(0, 140, 255) !important;
+        width: 30%;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        color: white;
+    }
+    
+    .submitEdit:hover {
+        opacity: 70%;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .error {
+        background-color: red;
+        padding: 1rem 2rem;
+        color: white;
+        border-radius: 1rem;
+    }
+    
+    .success {
+        background-color: rgb(3, 161, 16);
+        padding: 1rem 2rem;
+        color: white;
+        border-radius: 1rem;
+    }
